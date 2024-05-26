@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "math-class"
+version = "0.1.0"
+description = ""
+authors = ["Alexey Yakimanskiy <yakimanskiyav@yandex.ru>"]
+readme = "README.md"
+packages = [{include = "math_class"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+ipykernel = "^6.29.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
